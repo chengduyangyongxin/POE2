@@ -2,6 +2,13 @@
 
 《流放之路：降临》（Path of Exile 2）攻略资料仓库。
 
+## 游戏下载
+
+| 服务 | 下载 / 官网 |
+|------|-------------|
+| **国服（WeGame）** | 官网 <https://poe2.qq.com> · WeGame 商店 <https://www.wegame.com.cn/store/2002052/Path_of_Exile_2> |
+| **国际服（Global）** | 独立客户端 <https://pathofexile2.com/download> · 官网 <https://www.pathofexile.com>（亦可 Steam / Epic 库中安装） |
+
 本仓库按 **服务版本** 分分支维护：国际服与国服（WeGame）版本节奏、译名、经济等可能不同，请勿混用分支内容。
 
 ---
