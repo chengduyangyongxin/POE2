@@ -69,6 +69,6 @@ cn-wegame/
 
 | 操作 | 说明 |
 |------|------|
-| clone / pull | 公开仓库，只读无需协作者权限 |
+| clone / pull | 公开仓库；只读操作不需要协作者权限 |
 | push | GitHub → **Settings** → **Collaborators** → **Add people**（权限：**Write**） |
 | 提交分支 | **`cn-wegame`** |
