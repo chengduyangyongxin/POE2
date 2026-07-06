@@ -84,9 +84,41 @@ POE2/
 
 | 分支 | 用途 |
 |------|------|
-| `main` | 主分支，汇总通用结构与说明 |
+| `main` | 主分支，**默认拉取此分支即可看到最新国服攻略** |
+| `cn-wegame` | 国服 WeGame 专属内容维护（与 `main` 同步更新） |
 | `global` | 国际服专属内容维护 |
-| `cn-wegame` | 国服 WeGame 专属内容维护 |
+
+## 协作与克隆
+
+仓库地址：<https://github.com/chengduyangyongxin/POE2>
+
+### 获取攻略
+
+```bash
+# 推荐：克隆默认主分支（含 cn-wegame/ 下全部攻略）
+git clone https://github.com/chengduyangyongxin/POE2.git
+
+# 或显式指定国服分支
+git clone -b cn-wegame https://github.com/chengduyangyongxin/POE2.git
+```
+
+进入目录后更新：
+
+```bash
+git pull
+```
+
+国服开荒入口：[`cn-wegame/0.5-奥杜尔秘符/开荒/README.md`](cn-wegame/0.5-奥杜尔秘符/开荒/README.md)  
+新手入门：[`cn-wegame/新手攻略/README.md`](cn-wegame/新手攻略/README.md)
+
+### 权限说明
+
+| 需求 | 做法 |
+|------|------|
+| 只看 / clone / pull | 公开仓库，**无需**添加协作者 |
+| 直接 push 到仓库 | GitHub → 仓库 **Settings** → **Collaborators** → **Add people**，邀请对方并赋予 **Write** 权限 |
+
+若对方 `git pull` 看不到攻略，请确认是否在 **`main`** 或 **`cn-wegame`** 分支，且已执行 `git pull` 拉取最新提交。
 
 ## 文档命名建议
 
