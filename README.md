@@ -15,23 +15,23 @@
 
 ## 分支一览
 
-| 分支 | 用途 | 谁该用这个分支 |
-|------|------|----------------|
-| **`main`** | 仓库入口说明（本文件） | 了解仓库结构；**不含具体攻略正文** |
-| **`cn-wegame`** | 国服 WeGame 攻略 **主维护分支** | 玩国服、阅读或贡献国服攻略 |
-| **`global`** | 国际服（Global）攻略 | 玩国际服、阅读或贡献国际服攻略 |
+| 分支 | 用途 | 说明 |
+|------|------|------|
+| **`main`** | 仓库入口说明（本文件） | 不含具体攻略正文 |
+| **`cn-wegame`** | 国服 WeGame 攻略维护 | 对应 `cn-wegame/` 目录 |
+| **`global`** | 国际服（Global）攻略维护 | 对应 `global/` 目录 |
 
 ```
 main          →  仓库说明（起始分支）
-cn-wegame     →  cn-wegame/  目录下的全部国服文档
-global        →  global/     目录下的全部国际服文档
+cn-wegame     →  cn-wegame/  目录下的国服文档
+global        →  global/     目录下的国际服文档
 ```
 
 ---
 
 ## 如何获取攻略
 
-### 国服（推荐大多数本仓库读者）
+### 国服
 
 ```bash
 git clone -b cn-wegame https://github.com/chengduyangyongxin/POE2.git
@@ -47,7 +47,7 @@ cd POE2
 git pull origin global
 ```
 
-克隆后请进入对应分支上的 `cn-wegame/` 或 `global/` 目录阅读文档。
+克隆后进入对应分支上的 `cn-wegame/` 或 `global/` 目录阅读文档。若默认克隆 `main` 分支，需手动切换至 `cn-wegame` 或 `global` 后方可阅读攻略正文。
 
 ---
 
@@ -68,9 +68,8 @@ git pull origin global
 
 - 仓库地址：<https://github.com/chengduyangyongxin/POE2>
 - **只看 / clone / pull**：公开仓库无需添加协作者。
-- **需要 push**：GitHub → 仓库 **Settings** → **Collaborators** → **Add people**（建议 **Write** 权限）。
-- 国服贡献请在 **`cn-wegame`** 分支提交；国际服在 **`global`** 分支提交。
-- 建议在 GitHub **Settings → General → Default branch** 将默认分支设为 **`cn-wegame`**，避免他人误克隆 `main` 后找不到攻略。
+- **需要 push**：GitHub → 仓库 **Settings** → **Collaborators** → **Add people**（权限级别：**Write**）。
+- 国服文档在 **`cn-wegame`** 分支提交；国际服文档在 **`global`** 分支提交。
 
 ---
 
